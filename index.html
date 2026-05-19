@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trade Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Trade Builder</h1>
+    </header>
+
+    <main>
+      <section class="layout">
+        <aside class="catalog">
+          <h2>Catalog</h2>
+          <div class="controls">
+            <label>Category:
+              <select id="categorySelect"></select>
+            </label>
+            <label>Sort:
+              <select id="sortSelect">
+                <option value="value_desc">Value (high → low)</option>
+                <option value="value_asc">Value (low → high)</option>
+                <option value="alpha_asc">Alphabetical (A → Z)</option>
+                <option value="alpha_desc">Alphabetical (Z → A)</option>
+              </select>
+            </label>
+            <label>Search:
+              <input id="searchInput" placeholder="Search by name..." />
+            </label>
+          </div>
+          <div id="itemsList" class="items"></div>
+        </aside>
+
+        <section class="trades">
+          <div class="trade-box" id="boxA">
+            <div class="trade-header"><h3>Trade A</h3></div>
+            <div class="box-items" id="boxAItems"></div>
+            <div class="total">Total Value: <span id="totalA">0</span></div>
+          </div>
+
+          <div class="trade-box" id="boxB">
+            <div class="trade-header"><h3>Trade B</h3></div>
+            <div class="box-items" id="boxBItems"></div>
+            <div class="total">Total Value: <span id="totalB">0</span></div>
+          </div>
+
+          <div class="diff-centered">
+            <div class="diff-label">Difference</div>
+            <div id="diffPercent" class="diff-value">0%</div>
+            <button id="copyLinkBtn" class="copy-btn">📋 Copy</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>
