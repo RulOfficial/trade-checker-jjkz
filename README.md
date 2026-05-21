@@ -6,8 +6,7 @@ Compare two sets of items side-by-side, calculate total values, and see the diff
 
 ## Features
 
-- **Browse Catalog** — Filter items by category (Cursed Techniques, Weapons, Gears, Accessories, Supplies, Crates, Gamepasses)
-- **Sort & Search** — Organize items by name or value, search for specific items instantly
+- **Sort & Search** — Organize filter and search for specific items instantly
 - **Compare Trades** — Add items to two boxes and compare their total values
 - **Live Calculation** — See real-time totals and percentage difference between boxes
 - **Share Trades** — Generate shareable URLs to send your trade comparisons to others
@@ -15,11 +14,12 @@ Compare two sets of items side-by-side, calculate total values, and see the diff
 
 ## How to Use
 
-1. Search for specific items by name
-2. Click **Add A** or **Add B** to add items to each box
-3. Adjust quantities using +/- buttons
-4. Watch the totals update in real-time
-5. Use the copy button to share your trade comparison
+1. Select a category or leave it as "All" to see every item
+2. Search for specific items by name
+3. Click **Add A** or **Add B** to add items to each box
+4. Adjust quantities using +/- buttons
+5. Watch the totals update in real-time
+6. Use the copy button to share your trade comparison
 
 ## Data
 
