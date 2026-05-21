@@ -15,12 +15,11 @@ Compare two sets of items side-by-side, calculate total values, and see the diff
 
 ## How to Use
 
-1. Select a category or leave it as "All" to see every item
-2. Search for specific items by name
-3. Click **Add A** or **Add B** to add items to each box
-4. Adjust quantities using +/- buttons
-5. Watch the totals update in real-time
-6. Use the copy button to share your trade comparison
+1. Search for specific items by name
+2. Click **Add A** or **Add B** to add items to each box
+3. Adjust quantities using +/- buttons
+4. Watch the totals update in real-time
+5. Use the copy button to share your trade comparison
 
 ## Data
 
